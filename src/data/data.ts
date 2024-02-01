@@ -33,47 +33,47 @@ export const links: linkGroup[] = [
     title: "Reddit",
     links: [
       {
-        label: "r/startpages",
-        value: "https://www.reddit.com/r/startpages/",
+        label: "r/archlinux",
+        value: "https://www.reddit.com/r/archlinux/",
       },
       {
         label: "r/unixporn",
         value: "https://www.reddit.com/r/unixporn/",
       },
       {
-        label: "r/rainmeter",
-        value: "https://www.reddit.com/r/rainmeter/",
+        label: "r/ProgrammerHumor",
+        value: "https://www.reddit.com/r/ProgrammerHumor/",
       },
       {
-        label: "r/AnimalsBeingDerps",
-        value: "https://www.reddit.com/r/AnimalsBeingDerps/",
+        label: "ElderScrollsBrainRot",
+        value: "https://www.reddit.com/r/TrueSTL/",
       },
     ],
   },
   {
-    title: "3D Modelling",
+    title: "Study",
     links: [
       {
-        label: "Blender",
-        value: "https://www.blender.org/",
+        label: "THU",
+        value: "https://www.thu.de/",
       },
       {
-        label: "BlenderGuru",
-        value: "https://www.blenderguru.com/",
+        label: "Moodle",
+        value: "https://moodle-thu.de/",
       },
       {
-        label: "Poliigon",
-        value: "https://www.poliigon.com/",
+        label: "File Server",
+        value: "https://fs.thu.de/",
       },
       {
-        label: "Blender tutorial",
+        label: "Compiler Explorer",
         value:
-          "https://www.youtube.com/watch?v=NyJWoyVx_XI&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U",
+          "https://godbolt.org/",
       },
       {
-        label: "The other Blender tutorial",
+        label: "CPP Cheat Sheet",
         value:
-          "https://www.youtube.com/watch?v=bpvh-9H8S1g&list=PL8eKBkZzqDiU-qcoaghCz04sMitC1yx6k&index=1",
+          "https://hackingcpp.com/cpp/cheat_sheets.html",
       },
     ],
   },
@@ -103,53 +103,57 @@ export const links: linkGroup[] = [
     ],
   },
   {
-    title: "Music",
+    title: "Entertainment",
     links: [
       {
-        label: "i wanna be a cowboy",
-        value: "https://www.youtube.com/watch?v=8zWz92f_HGs",
+        label: "Youtube Music",
+        value: "https://music.youtube.com/",
       },
       {
-        label: "let the bodies hit the floor",
-        value: "https://www.youtube.com/watch?v=b--VKaCB9u0",
+        label: "Youtube",
+        value: "https://www.youtube.com/",
       },
       {
-        label: "Nobody Kanna Cross It",
-        value: "https://www.youtube.com/watch?v=2wqTnwJGvtc",
+        label: "Crappy Fanfictions Forum (SB)",
+        value: "https://forums.spacebattles.com/",
       },
       {
-        label: "Smug Dancin",
-        value: "https://www.youtube.com/watch?v=eNZ9Od1jQ4Q",
+        label: "Another Crappy Fanfictions Forum (SV)",
+        value: "https://forums.sufficientvelocity.com/",
       },
       {
-        label: "Utamaru - The Sanctified Mind Cover",
-        value: "https://www.youtube.com/watch?v=MHlJKLlS07U",
+        label: "More Fanfictions (FF)",
+        value: "https://www.fanfiction.net/",
+      },
+      {
+        label: "What did you think? (AOOU)",
+        value: "https://archiveofourown.org/",
       },
     ],
   },
   {
-    title: "Sauce",
+    title: "Other",
     links: [
       {
-        label: "Pictures - DeathAndMilk",
-        value: "https://www.instagram.com/deathandmilk_/",
+        label: "Arch Linux Wiki",
+        value: "https://archlinux.org/",
       },
       {
-        label: "Icons - FontAwesome",
-        value: "https://fontawesome.com/icons",
+        label: "Github",
+        value: "https://github.com/",
       },
       {
-        label: "Text Flicker - CodeMyUI",
+        label: "Cool Warhammer Quotes Page",
         value:
-          "https://codemyui.com/crt-screen-text-flicker-animation-in-pure-css/",
+          "https://dogma-imperialis.com/",
       },
       {
-        label: "Wave Animation - mburakerman",
-        value: "https://codepen.io/mburakerman/pen/eRZZEv",
+        label: "Good Sauce",
+        value: "https://youtu.be/AU-YS6VhVL4?si=RsloLtpOjqhzTlD8",
       },
       {
         label: "Da real sauce ԅ(♡﹃♡ԅ)",
-        value: "https://www.youtube.com/watch?v=qr89xoZyE1g",
+        value: "https://youtu.be/5rIuH_Ng2bM?si=IoZNGZ7NtGEpPHv4",
       },
       {
         label: "Even more real sauce ( ͡° ͜ʖ ͡°)",
@@ -171,13 +175,14 @@ export const images: dataElem[] = [
 ]
 
 export const searchEngines: dataElem[] = [
-  {
-    label: "DuckDuckGo",
-    value: `https://duckduckgo.com/?q=${queryToken}`,
-  },
+  
   {
     label: "Google",
     value: `https://www.google.com/search?q=${queryToken}`,
+  },
+  {
+    label: "DuckDuckGo",
+    value: `https://duckduckgo.com/?q=${queryToken}`,
   },
   {
     label: "Qwant",
